@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.homepage {
+  background: rgba(0, 0, 0);
+}
+
+.navbar {
+  height: 35px;
+  padding-top: 20px;
+  padding-left: 160px;
+  padding-right: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar img {
+  height: 26px;
+}
+
+.navbar h1 {
+  color: white;
+  font-family: "Lobster", sans-serif;
+  font-size: 40px;
+  margin-top: -20px;
+  font-weight: 400;
+}
+
+.circles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  padding-top: 100px;
+}
+
+.circles img {
+  border-radius: 50%;
+}
+
+.left {
+  position: absolute;
+  left: 37.8%;
+  margin-top: 45px;
+  height: 130px;
+  width: 130px;
+}
+.center {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  z-index: 10;
+  border: 10px solid black;
+}
+
+.right {
+  position: absolute;
+  right: 38.7%;
+  margin-top: 45px;
+  height: 130px;
+  width: 130px;
+}
+
+.homepage h3 {
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.gradient-text {
+  background-image: linear-gradient(
+    to right,
+    #0084f7,
+    #00d6e0,
+    #02eeae,
+    #3dfd7d,
+    #cae529,
+    #e6c62b,
+    #f6a73c
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  z-index: 10;
+  margin-top: 16%;
+}
+
+.audio {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  font-size: 55px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+
+.create {
+  margin-top: -30px;
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+.lava {
+  font-family: "Lobster", sans-serif;
+}
+
+.get {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 25px;
+}
+
+.get span {
+  border: 3px solid white;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}

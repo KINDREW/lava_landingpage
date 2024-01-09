@@ -1,0 +1,50 @@
+.secondscreen {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.secondscreen img {
+}
+
+.m1,
+.ml1,
+.ml2,
+.mr1,
+.mr3 {
+  position: absolute;
+}
+.m1 {
+  z-index: 2;
+  height: 500px;
+}
+.ml1 {
+  left: 31%;
+  z-index: 1;
+  height: 435px;
+  margin-top: 25px;
+}
+.ml2 {
+  left: 22%;
+  z-index: -1;
+  height: 380px;
+  margin-top: 50px;
+}
+
+.mr1 {
+  right: 31%;
+  z-index: 1;
+  height: 435px;
+  margin-top: 25px;
+}
+
+.mr3 {
+  right: 22%;
+  z-index: -1;
+  height: 380px;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+}

@@ -1,0 +1,21 @@
+.nav {
+  background: black;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.top {
+  height: 1vh;
+  background: linear-gradient(
+    to right,
+    #0084f7,
+    #00d6e0,
+    #02eeae,
+    #3dfd7d,
+    #cae529,
+    #e6c62b,
+    #f6a73c,
+    #ff6ab0
+  );
+}

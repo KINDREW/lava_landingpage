@@ -1,0 +1,43 @@
+.seventhscreen {
+  height: 100vh;
+  position: sticky;
+  top: 10px;
+  display: flex;
+  flex-direction: row;
+  background: black;
+  color: white;
+}
+
+.seventhscreen div {
+  width: 50%;
+}
+
+.be {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.be img {
+  width: 100%;
+}
+
+.a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.a h1 {
+  font-size: 57px;
+  color: white;
+  line-height: 60px;
+  font-weight: 900;
+}
+
+.a p {
+  margin-top: -35px;
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,72 @@
+.thirdscreen {
+  display: flex;
+  color: white;
+  margin-top: 550px;
+  justify-content: center;
+}
+
+.thirdscreen div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1f2023;
+  color: white;
+  border-radius: 20px;
+  height: 350px;
+  width: 400px;
+  margin: 10px;
+}
+
+.thirdscreen img {
+  height: 200px;
+  margin-top: 30px;
+}
+
+.thirdscreen h1 {
+  font-size: 27px;
+}
+
+.thirdscreen p {
+  text-align: center;
+  margin-top: -19px;
+  padding: 0 29px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.rightpod {
+  position: relative;
+  left: 40%;
+  top: -68%;
+  animation: bounce 10s infinite;
+}
+.leftpod {
+  position: relative;
+  left: -35%;
+  top: -95%;
+  animation: bounce 10s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-20px);
+  }
+  20% {
+    transform: translateY(-10px);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-20px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}

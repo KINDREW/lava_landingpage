@@ -1,0 +1,60 @@
+.fifthscreen {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.fifthscreen h1 {
+  margin-top: 30px;
+  font-size: 57px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  font-weight: 900;
+}
+
+.fifthscreen p {
+  color: white;
+  text-align: center;
+  margin-top: -19px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.po {
+  padding-top: 50px;
+}
+
+.color {
+  margin-top: 50px;
+  background: linear-gradient(
+    to right,
+    #0084f7,
+    #00d6e0,
+    #02eeae,
+    #3dfd7d,
+    #cae529,
+    #e6c62b,
+    #f6a73c,
+    #ff6ab0
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 220px;
+  border-radius: 20px;
+}
+
+.black {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  height: 42px;
+  width: 97%;
+  border-radius: 20px;
+}

@@ -1,0 +1,58 @@
+.sixthscreen {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  position: sticky;
+  top: 10px;
+  background: black;
+}
+
+.sixthscreen div {
+  width: 50%;
+}
+
+.hear {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hear h1 {
+  font-size: 57px;
+  color: white;
+  line-height: 60px;
+  font-weight: 900;
+  margin-left: 200px;
+}
+
+.hear p {
+  margin-top: -35px;
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 200px;
+}
+
+.cool {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.cool img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .hear h1 {
+    margin-left: 50px;
+  }
+
+  .hear p {
+    margin-left: 50px;
+  }
+
+  br {
+    display: none;
+  }
+}

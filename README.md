@@ -15,6 +15,10 @@ This project is a reimagining of the Lava app landing page using React. It aims 
 
 ![Lava Landing Page Replica](src/assets/images/Screenshot.png)
 
+## Live Demo
+
+Check out the live demo [here](https://lava-landingpage.vercel.app/).
+
 ## How to Run
 
 1. Clone the repository:
